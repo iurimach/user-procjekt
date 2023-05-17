@@ -1,0 +1,134 @@
+@media  (max-width: 1370px) {
+    .wrapper{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .div1{
+        width: 455px;}
+        .header>h2{
+            width: 99%;}
+        .label1{
+            width: 99%;}
+        .inputusername{
+            width: 99%;
+        }
+        .label2{
+            width: 99%;}
+        .passwordinput{
+            width: 99%;}
+        .autorizacia{
+            width: 99%;}
+    .div2{
+
+        max-width: 520px;
+    margin-left: 0px;}
+     
+         .logo2{
+             max-width: 520px;}
+
+}
+    
+@media  (max-width: 1050px) {
+    .wrapper{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .div1{
+        width: 355px;}
+        .header>h2{
+            width: 99%;}
+        .label1{
+            width: 99%;}
+        .inputusername{
+            width: 99%;
+        }
+        .label2{
+            width: 99%;}
+        .passwordinput{
+            width: 99%;}
+        .autorizacia{
+            width: 99%;}
+    .div2{
+
+        max-width: 420px;
+    margin-left: 0px;}
+     
+         .logo2{
+             max-width: 420px;}
+ }
+
+ @media  (max-width: 900px) {
+    .wrapper{
+        margin-left: 0px;
+        margin-top: 90px;
+    }
+    .div1{
+        width: 280px;}
+        .header>h2{
+            width: 99%;}
+        .label1{
+            width: 99%;}
+        .inputusername{
+            width: 99%;
+        }
+        .label2{
+            width: 99%;}
+        .passwordinput{
+            width: 99%;}
+        .autorizacia{
+            width: 99%;}
+    .div2{
+
+        max-width: 350px;
+    margin-left: 0px;}
+     
+         .logo2{
+             max-width: 350px;}
+ }
+
+ @media  (max-width: 700px) {
+    .wrapper{
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    .div1{
+        width: 200px;}
+        .label1{
+            font-size: 16px;
+        }
+        .header>h2{
+            width: 99%;}
+        .label1{
+            width: 99%;}
+        .inputusername{
+            width: 99%;
+        }
+        .label2{
+            width: 99%;}
+        .passwordinput{
+            width: 99%;}
+        .autorizacia{
+            width: 99%;}
+    .div2{
+
+        max-width: 270px;
+    margin-left: 0px;}
+     
+         .logo2{
+             max-width: 270px;}
+ }
+
+ @media  (max-width: 500px) {
+    .wrapper{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+        .label1{
+            font-size: 14px;
+        }
+
+
+}
