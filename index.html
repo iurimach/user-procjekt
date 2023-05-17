@@ -16,9 +16,9 @@
             <div class="div1" >
                 <div class="header"> <h2> ავტორიზაცია</h2></div>
                 <label for="username1" class="label1">შეიყვანეთ მომხარებელი</label>
-                <div><input type="text" name="username1"  placeholder="admin" class="inputusername"></div>
+                <div><input type="text" name="username1"  placeholder="admin" class="inputusername" onclick="usernameaudio()"></div>
 
-                <label for="password" class="label2"> პაროლი</label>
+                <label for="password" class="label2" > პაროლი</label>
                 <div><input type="password" name="password" class="passwordinput" placeholder="********" ></div>
                 <button class="autorizacia"> ავტორიზაცია</button>
             </div>
@@ -28,10 +28,12 @@
             </div>
        </div>
 
+       <audio src="voice/uername.mp3" id=audio1></audio>
+
 
 
 
     </form>
-
+    <script src="app.js"></script>
 </body>
 </html>
