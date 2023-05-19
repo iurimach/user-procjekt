@@ -89,7 +89,7 @@ flex-grow: 0;
 }
 .inputusername:focus, .passwordinput:focus{
     color: #FFFFFF;
-    background-color: #383838;
+    background-color: #a09595;
 }
 .label2{
         max-width: 515px;
@@ -149,6 +149,8 @@ flex-grow: 0;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+font-size: 28px;
+color:white;
 
 gap: 10px;
 
@@ -162,11 +164,11 @@ border-radius: 10px;
 }
 .autorizacia:hover{
     transform: translateY(-0.43em);
-    background-color: #383838;
+    background-color: #afb8ae;
 }
 .autorizacia:active{
     transform: translateY(0);;
-    background-color: #383838;
+    background-color: #5ef00a;
 }
 
 
