@@ -84,7 +84,7 @@ flex-grow: 0;
 
 
 .inputusername:hover, .passwordinput:hover{
-    background-color: #b0e59b;
+    
     border: 1ex solid none;    
 }
 .inputusername:focus, .passwordinput:focus{
@@ -152,6 +152,8 @@ align-items: center;
 font-size: 28px;
 color:white;
 gap: 10px;
+font-family: 'FiraGO';
+font-style: normal;
 width: 515px;
 height: 70px;
 left: 0px;
@@ -161,12 +163,12 @@ background: #07A4C5;
 border-radius: 10px;
 }
 .autorizacia:hover{
-    transform: translateY(-0.43em);
+    transform: translateY(-0.33em);
     background-color: #afb8ae;
 }
 .autorizacia:active{
     transform: translateY(0);;
-    background-color: #5ef00a;
+    
 }
 
 
