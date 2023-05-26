@@ -11,31 +11,53 @@
 </head>
 <body>
     
-    <form>
-       <div class="wrapper">
+    
+       <div class="wrapper" id="wrapperid">
             <div class="div1" >
                 <div class="header"> <h2> ავტორიზაცია</h2></div>
                 <label for="username1" class="label1">შეიყვანეთ მომხარებელი</label>
                 <div><input type="text" name="username1"  placeholder="admin" class="inputusername" onclick="usernameaudio()"></div>
-
+             
                 <label for="password" class="label2" > პაროლი</label>
-                <div><input type="password" name="password" class="passwordinput" placeholder="********" ></div>
-                <button type="submit" class="autorizacia"> <p  class="autorizaciap" >ავტორიზაცია </p></button>
-                
+                <div><input type="password" name="password" class="passwordinput" placeholder="********"  onclick="passwordaudio()"></div>
+                <button  class="autorizacia" id="open-dialog"> <p  class="autorizaciap" onclick="autorizaciaaudio()" >ავტორიზაცია </p></button>
+              
             </div>
             <div class="div2">
               
                 <img src="img/logo.svg" alt="err" class="logo2">
                 <p class="logo">LOGO</p>
             </div>
+        
        </div>
 
        <audio src="voice/uername.mp3" id=audio1></audio>
+       <audio src="voice/paroli.mp3" id=audio2></audio>
+       <audio src="voice/autorizacia.mp3" id=audio3></audio>
+       <audio src="voice/zari112.mp3" id=audio4></audio>
+       <audio src="voice/policeaudio.wav" id=audio5></audio>
 
+    
+      
 
+    </div>
+    
+    
+    
 
+  <div id="dialog" class="dialog">
+    <div class="dialog-content">
+      <h2>This is a dialog</h2>
+      <p>დიალოგის ფანჯრა მოგესალმებათ </p>
+      <p> დააჭირე "replay" </p>
+      
+      <button id="close-dialog">Close</button>
+      <button id="dialog2" onclick="zari112audio()" onmouseleave="policeaudio()">replay</button>
+    </div>
+  </div>
 
-    </form>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="app.js"></script>
+    
 </body>
 </html>

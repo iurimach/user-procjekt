@@ -25,6 +25,11 @@
      
          .logo2{
              max-width: 520px;}
+    .divbutton{
+        width: 455px;
+        margin-left: 100px;
+        margin-top: -180px;
+    }
 
 }
     
@@ -55,6 +60,11 @@
      
          .logo2{
              max-width: 420px;}
+             .divbutton{
+                width: 355px;
+                margin-left: 70px;
+                margin-top: -180px;
+            }
  }
 
  @media  (max-width: 900px) {
@@ -169,6 +179,31 @@
         margin-top: 28px;
         font-size: 18px;
         color:white;
+    }
+    .logo{
+        position: absolute;
+        width: 169px;
+        height: 52px;
+        
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 20px;
+        animation-name: logospeed;
+        animation-duration: 4s;
+        animation-iteration-count:inherit;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25px;
+        margin-left: -10px;
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     }
  }
 
