@@ -180,6 +180,12 @@
         font-size: 18px;
         color:white;
     }
+    .autorizaciap{
+        font-size: 16px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
     .logo{
         position: absolute;
         width: 169px;
