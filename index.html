@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/response.css">
+    
 </head>
 <body>
     
@@ -20,7 +21,7 @@
              
                 <label for="password" class="label2" > პაროლი</label>
                 <div><input type="password" name="password" class="passwordinput" placeholder="********"  onclick="passwordaudio()"></div>
-                <button  class="autorizacia" id="open-dialog"> <p  class="autorizaciap" onclick="autorizaciaaudio()" >ავტორიზაცია </p></button>
+                <button  class="autorizacia" onclick="openDialog()"> <p  class="autorizaciap" onclick="autorizaciaaudio()" >ავტორიზაცია </p></button>
               
             </div>
             <div class="div2">
@@ -45,18 +46,139 @@
     
     
 
-  <div id="dialog" class="dialog">
-    <div class="dialog-content">
-      <h2>This is a dialog</h2>
-      <p>დიალოგის ფანჯრა მოგესალმებათ </p>
-      <p> დააჭირე "replay" </p>
-      
-      <button id="close-dialog">Close</button>
-      <button id="dialog2" onclick="zari112audio()" onmouseleave="policeaudio()">replay</button>
-    </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    <div id="dialog" style="height: 523px !important;
+    
+    overflow: overlay;">
+      <div class="dialogheader"> 
+        <h2>ინფორმაცია</h2>
+        
+        <button onclick="closeDialog()" class="dialogbt">
+          <img src="img/dialogclose.svg" alt=""></button>
+        </div>
+      <div class="sectiondialog">
+        <div class="dialogleft">
+          <div class="dialogleftprofil">
+            <div class="dialogfoto"> </div>
+            <div class="addfilediv">
+                <button class="addfile">
+                  <img src="img/addfile.svg" alt="err">
+                  <p> ფაილის ატვირთვა</p>
+
+                </button>
+            </div>
+            <div class="naxva-washla-wrapper">
+              <div class="naxva"> <button id="naxva" ><p>ნახვა</p></button></div>
+              <div class="washla"><button id="washla"><p>წაშლა</p></button></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="dialogright">
+          <div class="dialogright1">
+            <div class="dialogrightheader"><h2>ინფორმაცია</h2></div>
+            <div  class="input-label-wrapper1">
+              <div>
+                <div><label for="" class="dialoglabel">title</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">number</label></div>
+                <input type="number" name="" id="" placeholder="134245" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">selector</label></div>
+                <input  list="brands" name="" placeholder="title" class="dialoginput">
+                <datalist id="brands">
+                  <option value="hp">
+                  <option value="msi">
+                  <option value="asus">
+                  
+              
+                 </datalist>
+              </div>
+
+            </div>
+           
+
+            <div  class="input-label-wrapper2">
+              <div>
+                <div><label for="" class="dialoglabel">title</label></div>
+                <input type="text" list="brands" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">number</label></div>
+                <input type="number" name="" id="" placeholder="134245" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">selector</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+
+            </div>
+            <div  class="input-label-wrapper3">
+              <div>
+                <div><label for="" class="dialoglabel">title</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">number</label></div>
+                <input type="number" name="" id="" placeholder="134245" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">selector</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+
+            </div>
+            <div  class="boloinput-label">
+              <div><label for="" class="dialoglabel">title</label></div>
+              <input type="text" name="" id="" placeholder="title" class="dialoginput">
+            </div>
+          </div>
+
+
+
+
+          <div class="dialogright2">
+            <div class="dialogrightheader"><h2>ინფორმაცია</h2></div>
+            <div  class="input-label-wrapper3" id="wrapper3">
+              <div>
+                <div><label for="" class="dialoglabel">title</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">number</label></div>
+                <input type="number" name="" id="" placeholder="134245" class="dialoginput">
+              </div>
+              <div>
+                <div><label for="" class="dialoglabel">selector</label></div>
+                <input type="text" name="" id="" placeholder="title" class="dialoginput">
+              </div>
+
+            </div>
+          </div>
+          <div class="dialogfooter">
+            <div class="daxurva"><button id="daxurva"><p>დახურვა</p></button></div>
+            <div class="shenaxva"><button id="shenaxva"><p>შენახვა</p></button></div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+
+
+
+
+
+  
     <script src="app.js"></script>
     
 </body>
