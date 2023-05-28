@@ -769,3 +769,12 @@ flex-grow: 0;
 #wrapper3{
     margin-top: 10px;
 }
+
+/** only 670px */
+
+.only670px{
+    display: none;
+}
+.dialogfooter2{
+    display: none;
+}
