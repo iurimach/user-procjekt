@@ -215,10 +215,33 @@
 
 /** response                     დიალოგ  სექცები    dialog  */
 
+@media  (max-width: 1920px) {
+    #dialog{
+        width: 1300px;
+        
+    }
+    .sectiondialog{
+        width: 1300px;
+    }
+    .dialogright{
+        width: 1300px;
+    }
+    .dialogright1{
+        
+    }
+    
+}
+
 @media  (max-width: 1520px) {
     #dialog{
-        width: 1400px;
+        width: 1300px;
         
+    }
+    .sectiondialog{
+        width: 1300px;
+    }
+    .dialogright{
+        width: 1000px;
     }
     
 }
