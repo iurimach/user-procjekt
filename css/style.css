@@ -275,23 +275,21 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         padding: 20px;
         border: 1px solid #ccc;
         width: 1410px;
-        border-radius: 10px;
+        border-radius: 22px;
         transform: translate(-50%, -50%)
-
-
-
-
-
-
   }
   .dialogheader{
-    max-width: 1298px;
+    
     width: 100%;
     height: 58px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px 20px 0px 0px ;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    
 
 
 background: #07A4C5;
@@ -300,7 +298,7 @@ background: #07A4C5;
 .dialogheader>h2{
     width: 100px;
     height: 18px;
-    margin-left: 28px;
+    margin-left: 20px;
 
     top: 20px;
 
@@ -331,7 +329,7 @@ color: #FFFFFF;
 
 /** dialog  sectiebi  */
 .sectiondialog{
-    
+    margin-top: 40px;
     width: 100%;
     height: 870px;
     
@@ -341,10 +339,10 @@ color: #FFFFFF;
 .dialogleft{
     max-width: 256px;
     height: 402px;
+    margin-top: 20px;
+    border-radius: 10px;
     
   background: #FFFFFF;
-   
-
 
 }
 .dialogleftprofil{
@@ -371,7 +369,29 @@ color: #FFFFFF;
 .addfilediv{
     max-width: 216px;
     height: 48px;
+    margin-top: 15px;
 
+}
+.addfile>p{
+    width: 147px;
+height: 18px;
+
+font-family: 'FiraGO';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+
+font-feature-settings: 'case' on;
+
+color: #FFFFFF;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 .addfile{
     display: flex;
@@ -380,7 +400,7 @@ color: #FFFFFF;
     align-items: center;
     padding: 9px 20px;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
 
     
     max-width: 216px;
@@ -390,41 +410,50 @@ color: #FFFFFF;
 
     background: #4E46B4;
     border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    
 }
 .naxva-washla-wrapper{
     max-width: 216px;
     height: 48px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
 
 }
 .naxva{
-   
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
 
 
 max-width: 103px;
 height: 48px;
 
-
+background: #E1E8FF;
+border-radius: 7px;
 }
 #naxva{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    cursor: pointer;
     gap: 10px;
-    
-    
-    max-width: 103px;
+    padding: 10px 0px;
+    border: none;
+    width: 103px;
     height: 48px;
     
     
    
 
 }
-.naxva>p{
+#naxva>p{
     width: 44px;
 height: 18px;
 
@@ -453,13 +482,14 @@ align-items: center;
 gap: 10px;
 margin-left: 10px;
 
-max-width: 103px;
+width: 103px;
 height: 48px;
 left: 133px;
 top: 314px;
 
+
 background: rgba(255, 0, 92, 0.1);
-border-radius: 7px;
+
 }
 #washla{
     display: flex;
@@ -468,18 +498,20 @@ border-radius: 7px;
     align-items: center;
     padding: 10px 0px;
     gap: 10px;
+    cursor: pointer;
     
-    
-    max-width: 103px;
+    width: 103px;
     height: 48px;
     left: 133px;
     top: 314px;
+    border: none;
     background: rgba(255, 0, 92, 0.1);
-    
-    border-radius: 7px;
+  
 
 }
-.washla>p{
+
+
+#washla>p{
     width: 51px;
     height: 18px;
 
@@ -507,7 +539,7 @@ border-radius: 7px;
 
 .dialogright{
     max-width: 900px;
-    
+    border-radius: 10px;
     
 
 }
@@ -520,13 +552,14 @@ border-radius: 7px;
 
 
 .dialogright1{
-    max-width: 900px;
+    
     height: 440px;
     margin-left: 30px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
+    border-radius: 10px;
     
 
 }
@@ -535,6 +568,7 @@ border-radius: 7px;
    padding-top: 10px;
     height: 44px;
     background: #FFFFFF;
+    border-radius: 10px;
 }
 .dialogrightheader>h2{
     width: 133px;
@@ -560,7 +594,7 @@ color: #7985AD;
    
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .dialoglabel{
 max-width: 300px;
@@ -624,7 +658,7 @@ flex-grow: 0;
     
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .input-label-wrapper3{
     max-width: 800px;
@@ -632,16 +666,18 @@ flex-grow: 0;
     
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .boloinput-label{
     margin-left: 20px;
+    max-width: 304px;
+    width: 100%;
 }
 
 
 
 .dialogright2{
-    max-width: 900px;
+    width: 900px;
 height: 164px;
 margin-left: 30px;
 
@@ -665,7 +701,7 @@ margin-top: 15px;
     display: flex;
 flex-direction: row;
 align-items: center;
-
+cursor: pointer;
 gap: 10px;
 margin-right: 20px;
 
@@ -684,7 +720,7 @@ border-radius: 7px;
     align-items: center;
     padding: 19px 20px;
     gap: 10px;
-    
+    cursor: pointer;
     
     width: 108px;
     height: 48px;
@@ -725,11 +761,10 @@ gap: 10px;
 
 width: 101px;
 height: 48px;
-left: 1177px;
-top: 736px;
 
-background: #478221;
 border-radius: 7px;
+background: #478221;
+
 
 }
 #shenaxva{
@@ -738,7 +773,7 @@ border-radius: 7px;
     align-items: center;
     padding: 9px 20px;
     gap: 10px;
-    
+    cursor: pointer;
     
     width: 101px;
     height: 48px;
@@ -746,7 +781,7 @@ border-radius: 7px;
     top: 736px;
     
     background: #478221;
-    border-radius: 7px;
+    
 
 }
 #shenaxva>p{
