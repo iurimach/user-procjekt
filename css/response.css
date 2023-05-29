@@ -213,18 +213,16 @@
     }
  }
 
-/** response                     დიალოგ  სექცები    dialog  */
+/** response                     დიალოგ  სექცები    dialog         */
 
 @media  (min-width: 1720px), (max-width: 1719px) {
 
     
     #dialog{
-        width: 1230px;
+        width: 1200px;
         
     }
-    .sectiondialog{
-        width: 1230px;
-    }
+    
     
     .dialogleftprofil{
         width: 256px;
@@ -278,12 +276,10 @@
     background-color: #F0F3FF;
     padding: 20px;
     border: 1px solid #ccc;
-    max-width: 1100px;
+    max-width: 1070px;
     border-radius: 22px;
     transform: translate(-50%, -50%);
     
-
-
   }
   .dialogheader{
     
@@ -344,7 +340,7 @@ background: #07A4C5;
     .dialogleft{
 max-width: 256px;
 width: 100%;
-        height: 402px;
+        height: 382px;
         
     background: #FFFFFF;
     
@@ -355,7 +351,7 @@ width: 100%;
         max-width: 256px;
         
 
-        height: 402px;
+        height: 362px;
         
         
 
@@ -520,7 +516,7 @@ width: 100%;
     .dialogright1{
         max-width: 800px;
         height: 470px;
-        margin-left: 30px;
+        margin-left: 10px;
         background: #FFFFFF;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -639,7 +635,7 @@ width: 100%;
     .dialogright2{
     max-width: 800px;
     height: 164px;
-    margin-left: 30px;
+    margin-left: 10px;
 
 
     background: #FFFFFF;
@@ -735,7 +731,7 @@ width: 100%;
         margin-top: 20px;
     }
     .dialogheader{
-        max-width: 1130px;
+        max-width: 1110px;
         width: 100%;
         height: 58px;
         display: flex;
@@ -755,11 +751,11 @@ width: 100%;
 /** max widt 1050 */
 
 
-@media  (max-width: 1050px) {
+@media  (max-width: 1150px) {
     
     #dialog {
        
-        max-width: 700px;
+        max-width: 675px;
         
       }
       .dialogright{

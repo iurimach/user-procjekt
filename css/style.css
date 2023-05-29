@@ -264,7 +264,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
 /** აქ არის  დიალოგის ფანჯრისსტილი */
-
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #07A4C5;
+}
 #dialog {
     
         display: none;
@@ -276,8 +279,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
         border: 1px solid #ccc;
         width: 1410px;
         border-radius: 22px;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
+        
+        
   }
+  
   .dialogheader{
     
     width: 100%;
@@ -338,7 +344,7 @@ color: #FFFFFF;
 }
 .dialogleft{
     max-width: 256px;
-    height: 402px;
+    height: 382px;
     margin-top: 20px;
     border-radius: 10px;
     
@@ -347,7 +353,7 @@ color: #FFFFFF;
 }
 .dialogleftprofil{
    max-width: 256px;
-    height: 402px;
+    height: 365px;
     
     
 
@@ -446,12 +452,10 @@ border-radius: 7px;
     gap: 10px;
     padding: 10px 0px;
     border: none;
+    border-radius: 7px;
     width: 103px;
     height: 48px;
     
-    
-   
-
 }
 #naxva>p{
     width: 44px;
@@ -505,6 +509,7 @@ background: rgba(255, 0, 92, 0.1);
     left: 133px;
     top: 314px;
     border: none;
+    border-radius: 7px;
     background: rgba(255, 0, 92, 0.1);
   
 
@@ -554,7 +559,7 @@ background: rgba(255, 0, 92, 0.1);
 .dialogright1{
     
     height: 440px;
-    margin-left: 30px;
+    margin-left: 10px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -679,7 +684,7 @@ flex-grow: 0;
 .dialogright2{
     width: 900px;
 height: 164px;
-margin-left: 30px;
+margin-left: 10px;
 
 
 background: #FFFFFF;
@@ -711,6 +716,7 @@ left: 1049px;
 top: 736px;
 
 background: #7985AD;
+border:none;
 border-radius: 7px;
 
 }
@@ -781,6 +787,8 @@ background: #478221;
     top: 736px;
     
     background: #478221;
+    border: none;
+    border-radius: 7px;
     
 
 }
