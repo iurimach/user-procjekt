@@ -222,6 +222,12 @@
         width: 1200px;
         
     }
+     .sectiondialog{
+        
+       
+       height: 750px;
+
+    }
     
     
     .dialogleftprofil{
@@ -334,7 +340,7 @@ background: #07A4C5;
         height: 804px;
         
         display: flex;
-       
+       height: 750px;
 
     }
     .dialogleft{
